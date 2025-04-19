@@ -1,0 +1,3 @@
+---
+# defaults file for proxmox-subscription
+pve_no_subscription_proxmoxlib_path: /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js
