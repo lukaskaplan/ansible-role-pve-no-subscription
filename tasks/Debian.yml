@@ -37,7 +37,7 @@
     update_cache: false
     filename: ceph
     state: present
-  when: squid.changed
+  when: squid.changed # noqa: no-handler
 
 # Ceph Reef repositories
 
@@ -54,4 +54,4 @@
     update_cache: false
     filename: ceph
     state: present
-  when: reef.changed
+  when: reef.changed # noqa: no-handler
